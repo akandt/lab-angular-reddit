@@ -1,0 +1,8 @@
+<h1>Reddit</h1>
+<form class="search-form">
+    <input class="search-bar" type="text" placeholder="Find subreddits">
+    <button class="search-submit" type="submit">Search</button>
+</form>
+<div class="feed-container">
+    <app-post *ngFor="let post of posts | slice:0:10; index as i;" [post]="posts[i]"></app-post>
+</div>

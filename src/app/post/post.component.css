@@ -1,0 +1,36 @@
+.post-container {
+    margin-bottom: 16px;
+    width: 480px;
+    padding: 24px;
+    background-color: white;
+    border: solid 1px #d1d1d1;
+    border-radius: 3px;
+}
+
+.sub-reddit {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+.post-header {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.post-image {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.post-link {
+    margin: 0;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 640px) {
+    .post-container {
+        width: 640px;
+    }
+}
